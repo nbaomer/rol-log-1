@@ -18,7 +18,7 @@ moderator_role_name = 'moderator'  # Moderatör rolünün adını burada değiş
 async def on_ready():
     print(f'{bot.user} aktif!')
 
-    await bot.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.playing, name="/pas"))
+    await bot.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.playing, name="/pasa"))
 
 
 @bot.event
